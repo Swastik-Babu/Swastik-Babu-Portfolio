@@ -1,11 +1,11 @@
-import "./Heroimg2Styles.css";
+import "./Heroimg4Styles.css";
 
 import React,{Component} from 'react'
 
-class Heroimg2 extends Component {
+class Heroimg4 extends Component {
     render(){
         return (
-            <div className="hero-img">
+            <div className="hero-img4">
                 <div className="heading">
                     <h1>{this.props.heading}</h1>
                     <p>{this.props.text}</p>
@@ -17,4 +17,4 @@ class Heroimg2 extends Component {
   
 }
 
-export default Heroimg2
+export default Heroimg4
